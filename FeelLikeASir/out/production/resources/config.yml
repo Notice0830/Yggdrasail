@@ -1,0 +1,38 @@
+## [ <-- Color Code: http://web.feather-s.kr:100/colors/ --> ] ##
+
+## <- 세팅 -> ##
+LogPrefix: "§a[§접두사§a]"
+
+## <- 접속 메세지 설정 -> ##
+Join:
+  enable: true
+  message: "§9[§a+§9] §7%player%"   #[ you can use %player% ]#
+
+## <- 퇴장 메세지 설정 -> ##
+Quit:
+  enable: true
+  message: "§9[§a-§9] §7%player%"   #[ you can use %player% ]#
+
+## <- DiscordBot Settings -> ##
+BotToken: "토큰 입력"
+## 중요================================ ##
+BotCommandPrefix: "!"
+BotStatus:
+  richPresence: "봇상태 메세지 설정"
+  status: "상태설정" #[ "online", "idle", "dnd", "invisible", "offline" ]#
+
+# [채널 아이디] #
+ChatSyncChannelID: "메세지을 나타나게 하게할 채널 아이더 "
+## 중요================================ ##
+
+## <- ChaySync Settings -> ##
+ChatSync:
+  message: "%player% » %message%"   #[ you can use %player% / %message%]#
+  joinMessage: "%player% joined the server!"  #[ you can use %player% ]#
+  quitMessage: "%player% left the server!"  #[ you can use %player% ]#
+  playerDeathMessage: "%cause%"  #[ you can use %player%, %cause% ]#
+  messageReceivedFromDiscord: "§b[§6Discord§b] §7%user_name% » %message%"  #[ you can use %user_name% / %message% ]#
+
+
+## [ <-- Original: 호예준#1234 -->] ##
+## [ <-- Edit By: Notice#1695 -->] ##
