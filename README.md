@@ -1,2 +1,1 @@
-# Yggdrasail
-this only dev repository
+# JDAWithSpigot

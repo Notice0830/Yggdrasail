@@ -1,0 +1,10 @@
+name: DiscordCon
+main: kr.Notice.mc.utils.JDAWithSpigotMain
+version: 1.0
+description: This is a plugin that connects to Discord and Spigot.
+author: Notice
+api-version: 1.19
+
+commands:
+  mp:
+    description: DiscordCon Command
